@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #121212; color: white; text-align: center;">
+
+
+    <header style="background-color: #1e1e1e; padding: 20px; font-size: 24px; font-weight: bold;">
+        My Portfolio
+    </header>
+
+
+    <section id="home" style="display: flex; align-items: center; justify-content: center; padding: 40px;">
+      <img src="https://drive.google.com/uc?export=view&id=1AYh9XinNkONo5o2uhJOmogGuvn6D07eJ" 
+      alt="Your Photo" 
+      style="width: 250px; border-radius: 10px; margin-right: 30px;">
+ 
+        <div style="max-width: 500px; text-align: left;">
+            <h2 style="color: #ffcc00;">Introduction</h2>
+            <p>
+                Hi, I'm <b>PRASHANT TIWARI</b>, a passionate <b>FRONTEND DEVELOPER</b> who specializes in creating modern and elegant designs.
+            </p>
+            <p>
+                My goal is to design engaging and interactive web experiences that bring ideas to life.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="projects" style="padding: 40px; background-color: #1e1e1e;">
+        <h2 style="color: #ffcc00;">Projects</h2>
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+            <div style="background: #2a2a2a; padding: 15px; border-radius: 10px; width: 280px; box-shadow: 0 4px 8px rgba(255,255,255,0.2);">
+                <img src="./bill.png" alt="Project 1" style="width: 100%; border-radius: 5px;">
+                <h3 style="color: #ffcc00;">BILL SPLITTER</h3>
+                <p>A Bill Splitter is a simple web application that allows users to input a total bill amount, specify the number of people splitting the bill, and optionally include a tip percentage. The app then calculates the amount each person needs to pay..</p>
+            </div>
+
+            <div style="background: #2a2a2a; padding: 15px; border-radius: 10px; width: 280px; box-shadow: 0 4px 8px rgba(255,255,255,0.2);">
+                <img src="./meme.png" alt="Project 2" style="width: 100%; border-radius: 5px;">
+                <h3 style="color: #ffcc00;">MEME GENERATOR</h3>
+                <p>A Meme Generator is a simple web application that fetches and displays random memes from an online API like Imgflip. This project is built using HTML, CSS, and JavaScript and allows users to generate new memes dynamically.</p>
+            </div>
+
+            <div style="background: #2a2a2a; padding: 15px; border-radius: 10px; width: 280px; box-shadow: 0 4px 8px rgba(255,255,255,0.2);">
+                <img src="./bmi.png" alt="Project 3" style="width: 100%; border-radius: 5px;">
+                <h3 style="color: #ffcc00;">BMI CALCULATOR</h3>
+                <p>A BMI (Body Mass Index) Calculator is a simple web application that allows users to input their height and weight to calculate their BMI. This project is built using HTML, CSS, and JavaScript and provides instant feedback on the user's BMI category.</p>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="contact" style="padding: 40px;">
+        <h2 style="color: #ffcc00;">Contact Me</h2>
+        <form action="mailto:your.email@example.com" method="post" enctype="text/plain" style="max-width: 400px; margin: auto; background: #2a2a2a; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(255,255,255,0.2);">
+            <input type="text" name="name" placeholder="Your Name" required 
+                style="display: block; width: 90%; padding: 12px; margin: 10px auto; border: 1px solid #ffcc00; border-radius: 5px; background: #333; color: white;">
+            <input type="email" name="email" placeholder="Your Email" required 
+                style="display: block; width: 90%; padding: 12px; margin: 10px auto; border: 1px solid #ffcc00; border-radius: 5px; background: #333; color: white;">
+            <textarea name="message" placeholder="Your Message" required 
+                style="display: block; width: 90%; padding: 12px; margin: 10px auto; border: 1px solid #ffcc00; border-radius: 5px; background: #333; color: white;"></textarea>
+            <button type="submit" 
+                style="background: #ffcc00; color: black; padding: 12px 20px; border: none; cursor: pointer; font-size: 16px; border-radius: 5px;">
+                Send Message
+            </button>
+        </form>
+    </section>
+
+
+    <footer style="background-color: #1e1e1e; color: white; padding: 15px;">
+        <p>&copy; 2025 Prashant Tiwari. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
